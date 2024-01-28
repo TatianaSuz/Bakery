@@ -5,21 +5,92 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!--    обнуление стилей готовым файлом -->
+    <link rel="stylesheet" href="src/css/reset.css">
+<!--    обнуление стилей извне -->
+<!--    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/style.css">
     <title>Магазин выпечки</title>
     <meta name="description" content="Лучшая выпечка в городе">
 </head>
 <body>
 
-    <header></header>
-    <nav></nav>
+    <header>
+        <img src="src/icons/01-Logo.svg" alt="Лого выпечечной">
+    </header>
+
+    <nav>
+        <ul>
+            <li> <a href="#">О НАС</a> </li>
+            <li> <a href="#">НОВОСТИ</a> </li>
+            <li> <a href="#">МЕНЮ</a> </li>
+            <li> <a href="#">КОНТАКТЫ</a> </li>
+        </ul>
+    </nav>
+
     <main>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section class="section-about">
+            <div class="section-about__block">
+                <div class="section-about__border">
+                    <h1 class="section-about__title">Специальный заказ</h1>
+                    <p class="section-about__text">В некоторых словарях произношение с «ЧН» («булоЧНая»)
+                        сопровождается пометой «допустимое». Однако есть и точка
+                        зрения других исследователей: «булочная» — более современный
+                        вариант, а «булошная» — устаревающий и уходящий.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-description">
+            <div class="section-description__icon-box">
+                <img src="src/icons/03-Иконка.svg" alt="Выпечка">
+                <img src="src/icons/02-Иконка.svg" alt="Тортики">
+                <img src="src/icons/01-Иконка.svg" alt="Сладости">
+            </div>
+            <div class="section-description__test-box">
+                <h2 class="section-description__title">
+                    Выпечка - <span class="red">это</span> вкусно
+                </h2>
+                <p class="section-description__text">
+                    Вкусно поесть – настоящее удовольствие. Но особенную радость
+                    нам приносят любимые хлебобулочные изделия. Мы кладем в рот
+                    кусочек ароматной булочки, и суета дня отступает. Яркая
+                    иллюстрация – блаженная улыбка на вечно недовольном лице
+                    ресторанного критика Эго из мультфильма «Рататуй», когда он
+                    пробует блюдо из своего детства. Вкусная выпечка способна
+                    доставить много подобных переживаний. Вкус пирожков с повидлом
+                    может напомнить о милой доброй бабушке, хрустящие чебуреки – о
+                    маме и совместной готовке на кухне, когда все оказывались в
+                    муке и весело смеялись. Еда способна делать нас по-настоящему
+                    счастливыми, вернуть в те мгновения, когда нам было хорошо.
+                    Почему бы не сделать себе приятно и не заказать готовую выпечку?
+
+                    Времени на то, чтобы самому стоять у плиты, катастрофически не
+                    хватает, но так хочется побаловать себя и близких.
+                </p>
+            </div>
+        </section>
+
+        <section class="section-map">
+            <h3 class="section-map__title">ЗАКАЗАТЬ</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71852.4788981266!2d37.554728648182945!3d55.751727671552494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b3344c934a5%3A0xbdad65406a8e9c04!2z0JzQsNC70LXQvdGM0LrQsNGPINC_0LXQutCw0YDQvdGPINCW0YPRgNCw0LLQu9C10LLRi9GF!5e0!3m2!1sru!2sru!4v1706466330320!5m2!1sru!2sru" width="900" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
     </main>
+
     <footer>
-        <nav></nav>
+        <hr class="line">
+        <nav>
+            <ul>
+                <li> <a href="#">О НАС</a> </li>
+                <li> <a href="#">НОВОСТИ</a> </li>
+                <li> <a href="#">МЕНЮ</a> </li>
+                <li> <a href="#">КОНТАКТЫ</a> </li>
+            </ul>
+        </nav>
+        <hr class="line">
     </footer>
 
 </body>
